@@ -1,0 +1,25 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun main() {
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4663#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:4:5: error: do_while is not an expression, and only expressions are allowed here
+        do {
+        ^
+    main.kt:7:13: error: operator '!=' cannot be applied to 'MutableList<Char>' and 'Int'
+        } while(num != 0)
+                ^
+    main.kt:8:13: error: unresolved reference: num
+        println(num)
+                ^
+  time: "Sun, 22 Jan 2023 20:03:33 UTC"
+record: -1

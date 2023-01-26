@@ -1,0 +1,31 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun main() {
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4669#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:18:13: error: expecting an element
+                else
+                ^
+    main.kt:25:1: error: expecting a top level declaration
+    }
+    ^
+    main.kt:17:17: error: conflicting declarations: var store1: Int, var store1: Int
+                var store1 = input2
+                    ^
+    main.kt:19:17: error: conflicting declarations: var store1: Int, var store1: Int
+                var store1 = input1
+                    ^
+    main.kt:22:15: error: unresolved reference: store1
+        println("$store1")
+                  ^
+  time: "Sat, 21 Jan 2023 01:50:32 UTC"
+record: -1
